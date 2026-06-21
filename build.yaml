@@ -7,8 +7,7 @@ include:
   - board: keypoint_dongle_right
     shield: lpm_view;right_trackpoint_keypoint
 
----
-include:
+# reset firmware
   - board: keypoint_dongle
     shield: st7789_display;settings_reset
   - board: keypoint_dongle_left
