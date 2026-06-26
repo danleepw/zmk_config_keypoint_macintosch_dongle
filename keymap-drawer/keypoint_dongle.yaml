@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keypoint_dongle}
 layers:
   QWERTY:
   - '&bootloader'
-  - {t: TAB, h: ESC}
+  - ''
   - Q
   - W
   - E
@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - CAPS
+  - ''
+  - ''
   - A
   - S
   - D
@@ -27,37 +27,37 @@ layers:
   - K
   - L
   - ;
-  - ENTER
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
+  - ''
+  - ''
+  - {t: Z, h: RAISE}
+  - {t: X, h: LALT}
+  - {t: C, h: LCTRL}
+  - {t: V, h: LSHFT}
   - B
   - PG DN
   - PG UP
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - N
-  - M
-  - ','
-  - .
+  - {t: M, h: RSHFT}
+  - {t: ',', h: RCTRL}
+  - {t: ., h: LALT}
   - /
-  - RSHFT
-  - LCTRL
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - LGUI
-  - LALT
-  - MUTE
-  - RAISE
   - SPACE
+  - MOUSE
   - LOWER
-  - LOWER
-  - SPACE
-  - RAISE
-  - MUTE
-  - '-'
-  - '='
-  - '`'
+  - ENTER
+  - RESERVE
+  - ''
+  - ''
+  - ''
+  - ''
   LOWER:
   - '&bootloader'
   - ESC
@@ -108,8 +108,8 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - SPACE
-  - {t: LOWER, type: held}
   - LOWER
+  - {t: LOWER, type: held}
   - SPACE
   - {t: MOUSE, h: toggle}
   - OUT TOG
@@ -145,7 +145,7 @@ layers:
   - ''
   - ''
   - LSHFT
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -164,7 +164,7 @@ layers:
   - LGUI
   - ''
   - ''
-  - {t: RAISE, type: held}
+  - RAISE
   - ''
   - ''
   - ''
@@ -200,7 +200,7 @@ layers:
   - {t: J, h: '&mkp MB1'}
   - K
   - L
-  - ;
+  - SEM I
   - ENTER
   - LSHFT
   - Z
@@ -224,7 +224,7 @@ layers:
   - ''
   - RAISE
   - SPACE
-  - '&mkp MB1'
+  - {t: '&mkp MB1', type: held}
   - '&mkp MB1'
   - '&tdRMCLK'
   - RAISE
@@ -232,5 +232,64 @@ layers:
   - '-'
   - '='
   - '`'
-  RESERVE: ['&bootloader', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  RESERVE:
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+combos:
+- p: [49, 50]
+  k: '&caps_word'
