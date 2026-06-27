@@ -51,14 +51,14 @@ layers:
   - LGUI
   - SPACE
   - Navig
-  - Numb
+  - Number
   - ENTER
   - Output
   - ''
   - ''
   - ''
   - ''
-  Numb:
+  Number:
   - '&bootloader'
   - ''
   - '1'
