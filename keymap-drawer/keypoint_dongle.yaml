@@ -226,8 +226,8 @@ layers:
   - ''
   - {type: held}
   - ''
-  - '&mkp LCLK'
-  - '&mkp RCLK'
+  - ''
+  - ''
   - ''
   - ''
   - ''
