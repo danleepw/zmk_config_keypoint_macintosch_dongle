@@ -194,8 +194,8 @@ layers:
   - ''
   - TAB
   - ''
-  - ''
-  - ''
+  - '&mkp LCLK'
+  - '&mkp LCLK'
   - LEFT
   - DOWN
   - UP
@@ -226,8 +226,8 @@ layers:
   - ''
   - {type: held}
   - ''
-  - ''
-  - ''
+  - '&mkp LCLK'
+  - '&mkp RCLK'
   - ''
   - ''
   - ''
