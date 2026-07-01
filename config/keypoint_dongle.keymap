@@ -158,6 +158,12 @@
             key-positions = <49 50>;
             bindings = <&caps_word>;
         };
+
+        combo_default_layer {
+            timeout-ms = <50>;
+            key-positions = <6 12>;
+            bindings = <&to 0>;
+        }; 
     };   
 
     keymap {
