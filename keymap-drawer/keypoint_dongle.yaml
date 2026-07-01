@@ -293,3 +293,5 @@ layers:
 combos:
 - p: [49, 50]
   k: '&caps_word'
+- p: [6, 12]
+  k: {t: QWERTY, h: toggle}

@@ -370,6 +370,14 @@ path.combo {
 <rect rx="6" ry="6" x="420" y="292" width="28" height="26" class="combo"/>
 <text x="434" y="305" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M574,102 l-247,-4" class="combo"/>
+<path d="M574,102 l247,4" class="combo"/>
+<rect rx="6" ry="6" x="560" y="89" width="28" height="26" class="combo"/>
+<a href="#QWERTY">
+<text x="574" y="102" class="combo tap layer-activator">QWERTY</text>
+</a><text x="574" y="113" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 402)" class="layer-Number">
@@ -593,6 +601,14 @@ path.combo {
 <rect rx="6" ry="6" x="420" y="292" width="28" height="26" class="combo"/>
 <text x="434" y="305" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M574,102 l-247,-4" class="combo"/>
+<path d="M574,102 l247,4" class="combo"/>
+<rect rx="6" ry="6" x="560" y="89" width="28" height="26" class="combo"/>
+<a href="#QWERTY">
+<text x="574" y="102" class="combo tap layer-activator">QWERTY</text>
+</a><text x="574" y="113" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 804)" class="layer-Symbol">
@@ -799,6 +815,14 @@ path.combo {
 <path d="M434,305 l48,-3" class="combo"/>
 <rect rx="6" ry="6" x="420" y="292" width="28" height="26" class="combo"/>
 <text x="434" y="305" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M574,102 l-247,-4" class="combo"/>
+<path d="M574,102 l247,4" class="combo"/>
+<rect rx="6" ry="6" x="560" y="89" width="28" height="26" class="combo"/>
+<a href="#QWERTY">
+<text x="574" y="102" class="combo tap layer-activator">QWERTY</text>
+</a><text x="574" y="113" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1012,6 +1036,14 @@ path.combo {
 <rect rx="6" ry="6" x="420" y="292" width="28" height="26" class="combo"/>
 <text x="434" y="305" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-1">
+<path d="M574,102 l-247,-4" class="combo"/>
+<path d="M574,102 l247,4" class="combo"/>
+<rect rx="6" ry="6" x="560" y="89" width="28" height="26" class="combo"/>
+<a href="#QWERTY">
+<text x="574" y="102" class="combo tap layer-activator">QWERTY</text>
+</a><text x="574" y="113" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1608)" class="layer-Output">
@@ -1209,6 +1241,14 @@ path.combo {
 <path d="M434,305 l48,-3" class="combo"/>
 <rect rx="6" ry="6" x="420" y="292" width="28" height="26" class="combo"/>
 <text x="434" y="305" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M574,102 l-247,-4" class="combo"/>
+<path d="M574,102 l247,4" class="combo"/>
+<rect rx="6" ry="6" x="560" y="89" width="28" height="26" class="combo"/>
+<a href="#QWERTY">
+<text x="574" y="102" class="combo tap layer-activator">QWERTY</text>
+</a><text x="574" y="113" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
